@@ -26,5 +26,16 @@ Using a generic Exception block to catch any errors.
 
 By implementing these tools and techniques, the PiXELL Transaction Report program ensures reliable software that meets the needs of users.
 
+## Code Modification:
+
+Added exception handling throughout the pixell_transaction_report.py program.
+
+Wrapped the file reading and data processing logic in a try-except block to catch and handle FileNotFoundErro` and other potential exceptions.
+
+Added validation checks for transaction types and amounts to ensure data integrity and prevent runtime errors.
+
+Collected and reported rejected records with appropriate error messages for better debugging and user feedback.
+
+
 
  
